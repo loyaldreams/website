@@ -1,23 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
-Author E-mail: info@spondonit.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Medicare Medical
-@Author: Naim LAsker
-@Developed By: Naim LAsker
-
-
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
-/*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500|Rubik:500, 600");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -174,7 +155,7 @@ button:focus {
         display: inline-block; }
         @media (max-width: 991px) {
           .header_area .navbar .nav .nav-item .nav-link {
-            color: #ffffff; } }
+            color:black; } }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
@@ -3032,9 +3013,9 @@ h6 {
 
   .header_area {
     position: absolute; }
-
+/* 
   .header_area .navbar {
-    background: #868686; }
+    background: #868686; } */
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
@@ -3709,4 +3690,10 @@ bottom: 30px;
   height: 75px;
   line-height: 75px;
   margin: -40px auto 0 auto;
+}
+
+@media (max-width: 480px) {
+  .desktop{
+    display: none;
+  }
 }
