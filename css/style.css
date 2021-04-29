@@ -1490,3 +1490,8 @@ bottom: 30px;
     display: none;
   }
 }
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+}
