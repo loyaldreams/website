@@ -316,6 +316,9 @@ button:focus {
     .banner_area_nz{
       background: url(../img/banner/nz.jpg) no-repeat center center;
       }
+      .banner_area_about{
+        background: url(../img/about.jpg) no-repeat center center;
+        }
     
   .banner_area .banner_inner {
     position: relative;
