@@ -1489,6 +1489,18 @@ bottom: 30px;
   .desktop{
     display: none;
   }
+  .mob-s{
+    font-size: 30px;
+  }
+  .mob-ss{
+    font-size: 25px;
+  }
+}
+
+@media (min-width:500px){
+  .mobile{
+    display:none;
+  }
 }
 
 .about-img {
