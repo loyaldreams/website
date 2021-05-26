@@ -1502,7 +1502,10 @@ bottom: 30px;
     display:none;
   }
 }
-
+.main-head{
+  font-size: 21px;
+  font-weight: 400 ;
+}
 .about-img {
   max-width: 100%;
   height: auto;
