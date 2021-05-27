@@ -962,8 +962,8 @@ e:hover {
 
   /* End Blog Page Area css
 	============================================================================================ */
-  .home_banner_area .banner_inner .banner_content h3 {
-    font-size: 30px; }
+  /* .home_banner_area .banner_inner .banner_content h3 {
+    font-size: 30px; } */
 
   .home_banner_area .banner_inner .banner_content p br {
     display: none; }
@@ -1038,8 +1038,8 @@ e:hover {
   .home_banner_area .banner_inner .banner_content {
     margin-top: 0px; }
 
-  .home_banner_area .banner_inner .banner_content h3 {
-    font-size: 24px; }
+  /* .home_banner_area .banner_inner .banner_content h3 {
+    font-size: 24px; } */
 
   /* End Home Banner Area css
 	============================================================================================ */
@@ -1490,7 +1490,7 @@ bottom: 30px;
     display: none;
   }
   .mob-s{
-    font-size: 30px;
+    font-size: 24px;
   }
   .mob-ss{
     font-size: 25px;
@@ -1500,6 +1500,9 @@ bottom: 30px;
 @media (min-width:500px){
   .mobile{
     display:none;
+  }
+  .des-s{
+    font-size: 39px;
   }
 }
 .main-head{
